@@ -1,23 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <title>NETFLIX CLONE</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fontes do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/main.css" />
+
+    <!-- Responsividade-->
+
+    <link rel="stylesheet" href="style/responsive.css" />
+
+    <!-- owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+
+    <title>GAMEFLIX</title>
+  </head>
+
+  <body>
     <header>
-        <div class="container">
-            <h2>NETFLIX</h2>
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href=#"">Documentários</a>
-            </nav>
-        </div>
+      <div class="container">
+        <h2 class="logo" href="index.html">GAMEFLIX</h2>
+        <nav>
+          <a href="#">Início</a>
+          <a href="#populares">Mais Populares</a>
+          <input type="text" id="txtBusca" placeholder="Pesquisar..." />
+          <i class="fa-brands fa-searchengin"><link rel="stylesheet" href="#"></i>
+        </nav>
+      </div>
     </header>
-<body>
-</body>
+
+    <main>
+      <div class="jogo-principal">
+        <div class="container">
+          <h3 class="titulo">SUPER MARIO BROS</h3>
+          <p class="descricao">
+            Este clássico não precisa de apresentações. Espera, você nunca
+            jogou? Então jogue agora!
+          </p>
+
+          <div class="botoes">
+            <a
+              href="https://playretrogames.online/game/play/play-super-mario-bros/"
+              target="_blank"
+            >
+              <button role="button" class="botao">
+                <i class="fa-solid fa-play"> </i>
+                Jogar
+              </button>
+            </a>
+            <a
+              href="https://playretrogames.online/game/show/play-super-mario-bros"
+              target="_blank"
+            >
+              <button role="button" class="botao">
+                <i class="fa-solid fa-circle-info"></i>
+                Informações
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div>
+        
+    </div>
+
+    <div class="carrossel-jogos">
+        <h3> <a name="populares"></a>
+            Mais Populares
+        </h3>
+        
+      <div class="owl-carousel owl-theme">
+          
+        <div class="item">
+          <h4>
+            <a
+              href="https://playretrogames.online/game/play/play-streets-of-rage/"
+              target="_blank"
+            >
+              <img class="box-game" src="img/min1.jpg" alt="Streets Of Rage" />
+            </a>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>
+            <a
+              href="https://playretrogames.online/game/play/play-sonic-advance-2/"
+              target="_blank"
+            >
+              <img class="box-game" src="img/min2.jpg" alt="Sonic Advance 2" />
+            </a>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>
+            <a
+              href="https://playretrogames.online/game/play/play-legend-of-zelda-link-to-the-past/"
+              target="_blank"
+            >
+              <img
+                class="box-game"
+                src="img/min3.jpg"
+                alt="The Legend of Zelda - A Link to the Past"
+              />
+            </a>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>
+            <a
+              href="https://playretrogames.online/game/play/play-metal-slug-1st-mission/"
+              target="_blank"
+            >
+              <img
+                class="box-game"
+                src="img/min4.jpg"
+                alt="The Legend of Zelda - A Link to the Past"
+                height="387px"
+              />
+            </a>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>
+            <a
+              href="https://playretrogames.online/game/play/play-banjo-kazooie/"
+              target="_blank"
+            >
+              <img class="box-game" src="img/min5.jpg" alt="" height="387px" />
+            </a>
+          </h4>
+        </div>
+        <div class="item">
+            <h4>
+              <a
+                href="https://playretrogames.online/game/play/play-battletoads/"
+                target="_blank"
+              >
+                <img class="box-game" src="img/min6.jpg" alt="" height="387px" />
+              </a>
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              <a
+                href="https://playretrogames.online/game/show/play-castlevania-vampires-kiss/"
+                target="_blank"
+              >
+                <img class="box-game" src="img/min7.jpg" alt="" height="387px" />
+              </a>
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              <a
+                href="https://playretrogames.online/game/play/play-final-fantasy-3/"
+                target="_blank"
+              >
+                <img class="box-game" src="img/min8.jpeg" alt="" height="387px" />
+              </a>
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              <a
+                href="https://playretrogames.online/game/play/play-crash-bandicoot-1-ps1/"
+                target="_blank"
+              >
+                <img class="box-game" src="img/min9.jpg" alt="" height="387px" />
+              </a>
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              <a
+                href="https://playretrogames.online/game/play/play-donkey-kong-country/"
+                target="_blank"
+              >
+                <img class="box-game" src="img/min10.jpg" alt="" height="387px" />
+              </a>
+            </h4>
+          </div>
+        
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2bec7fc8ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+  </body>
 </html>

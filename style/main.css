@@ -1,6 +1,7 @@
 :root {
     --vermelho: #E50914;
     --preto: #141414;
+    --azul: rgb(36, 82, 124);
 }
 
 * {
@@ -9,7 +10,137 @@
     box-sizing: border-box;
 }
 
+/* elemento Base*/
 body {
-    background-color: var(--vermelho);
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
 }
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Goldman', cursive;
+    font-size: 40px;
+    margin: 15px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header nav a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+#txtBusca{
+    background-color: transparent;
+    border-style: groove;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+/* Jogo princpal*/
+.jogo-principal {
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgba(0,0,0,.75), rgba(0,0,0,0)), url("/img/mario_bros.jpg");
+    transition: all .2s ease-in-out;
+
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+    
+
+}
+
+
+.jogo-principal .descricao {
+    margin: 10px 0 40px 10px; 
+
+    font-size: 17px;
+    text-align: left;
+
+}
+
+.jogo-principal .titulo {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    width: 200px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-left: 8px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+.botao i{
+    margin: 5px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+h3 {
+    margin: 30px 10px 25px 10px;
+}
+
+.item {
+    opacity: 0.75;
+    transition: all .2s ease-in-out;
+}
+.item:hover {
+    opacity: 1;
+}
+
+
+
+
+
 
